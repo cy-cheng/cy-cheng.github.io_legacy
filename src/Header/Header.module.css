@@ -1,5 +1,5 @@
 .banner {
-  background-color: hsl(144, 99%, 38%);
+  background-color: hsl(216, 100%, 25%);
   width: 100%;
   min-height: 50px;
   height: 10%;
@@ -10,26 +10,31 @@
 .logo {
   height: 100%;
   position: absolute;
-  left: 5%;
+  left: 2rem;
 
 }
 
-nav {
+.links {
   position: absolute;
-  bottom:0%;
-  right:0%;
+  top: 10%;
+  right: 2rem;
 }
 
-a {
+.menu {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.menu a {
   padding: 6px;
   margin: 8px;
   color: hsl(0, 0%, 100%);
   font-size: larger;
 }
 
-a:hover {
+.menu a:hover {
   transition: all 1s ease;
   text-decoration: underline;
   color: aqua;
 }
-
