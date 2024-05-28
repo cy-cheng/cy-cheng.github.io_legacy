@@ -1,7 +1,7 @@
 .banner {
   background-color: hsl(216, 100%, 25%);
   width: 100%;
-  min-height: 50px;
+  min-height: 65px;
   height: 10%;
   position: fixed;
   top: 0%;
@@ -11,13 +11,18 @@
   height: 100%;
   position: absolute;
   left: 2rem;
-
 }
 
 .links {
   position: absolute;
-  top: 10%;
-  right: 2rem;
+  right: 0%;
+}
+
+.links .icons {
+  margin: 6px;
+  margin-right: 16px;
+  height: 20px;
+  color: white;
 }
 
 .menu {

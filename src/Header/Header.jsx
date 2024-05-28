@@ -1,5 +1,7 @@
 import styles from "./Header.module.css"
 import logo from "../assets/logo.svg"
+import githubLogo from "../assets/github-icon.svg"
+import linkedInLogo from "../assets/linkedIn-icon.svg"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
@@ -13,7 +15,13 @@ function Header() {
 
       <nav className={styles.links}>
         <a href="mailto=cycheng.dev@gmail.com">
-          <FontAwesomeIcon icon={faEnvelope} />
+          <FontAwesomeIcon icon={faEnvelope} className={styles.icons} />
+        </a>
+        <a href="https://github.com/cy-cheng">
+          <img src={githubLogo} className={styles.icons} />
+        </a>
+        <a href="https://www.linkedin.com/in/chun-yang-cheng-55580130a/">
+          <img src={linkedInLogo} className={styles.icons} />
         </a>
       </nav>
 
