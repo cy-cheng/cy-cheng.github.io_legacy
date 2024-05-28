@@ -1,0 +1,35 @@
+.banner {
+  background-color: hsl(144, 99%, 38%);
+  width: 100%;
+  min-height: 50px;
+  height: 10%;
+  position: fixed;
+  top: 0%;
+}
+
+.logo {
+  height: 100%;
+  position: absolute;
+  left: 5%;
+
+}
+
+nav {
+  position: absolute;
+  bottom:0%;
+  right:0%;
+}
+
+a {
+  padding: 6px;
+  margin: 8px;
+  color: hsl(0, 0%, 100%);
+  font-size: larger;
+}
+
+a:hover {
+  transition: all 1s ease;
+  text-decoration: underline;
+  color: aqua;
+}
+

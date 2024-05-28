@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 687 249">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1eb5c3;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-family: CascadiaMono-SemiBoldItalic, 'Cascadia Mono';
+        font-variation-settings: 'wght' 600;
+        font-weight: 600;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #231f20;
+        font-size: 144px;
+        font-style: italic;
+      }
+
+      .cls-3 {
+        font-family: CascadiaMono-SemiLightItalic, 'Cascadia Mono';
+        font-variation-settings: 'wght' 350;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="249" height="249"/>
+  <text class="cls-2" transform="translate(36.47 166.24)"><tspan x="0" y="0">CY</tspan></text>
+  <text/>
+  <text class="cls-3" transform="translate(265.13 166.24)"><tspan x="0" y="0">Cheng</tspan></text>
+</svg>
