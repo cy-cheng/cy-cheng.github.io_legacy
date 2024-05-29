@@ -2,9 +2,10 @@
   background-color: hsl(216, 100%, 25%);
   width: 100%;
   min-height: 65px;
-  height: 10%;
-  position: fixed;
+  height: 10vh;
+  position: sticky;
   top: 0%;
+  display: block;
 }
 
 .logo {
@@ -23,6 +24,10 @@
   margin-right: 16px;
   height: 20px;
   color: white;
+}
+
+.icons:hover {
+  fill: aqua;
 }
 
 .menu {

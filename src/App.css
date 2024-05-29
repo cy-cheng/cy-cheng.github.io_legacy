@@ -3,15 +3,29 @@
   text-align: left;
 }
 
+#page-container {
+  min-height: 100vh;
+}
+
+.centered {
+  text-align: left;
+  margin: 0 auto;
+  min-width: 1000px;
+  width: 70vw;
+  font-size: large;
+}
+
 p {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 footer {
-  position: relative;
+  position: absolute;
   text-align: right;
+  right: 0%;
+  bottom: 0%;
   color: grey;
   font-size: small;
-  bottom: 0%;
+  padding-top: 10px;
 }
